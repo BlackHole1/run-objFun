@@ -17,6 +17,29 @@ $ bower install run-objFun --save
 
 ## Usage
 
+### function is ES5 or ES6
+
+``` javascript
+const runObjFun = require('run-objFun')
+
+let arr = []
+const fun1 = () => {
+  arr.push(1)
+}
+const fun2 = function() {
+  arr.push(2)
+}
+const obj = {
+  fun1,
+  fun2
+}
+
+runObjFun(obj) //=> true
+console.log(arr) //=> [1, 2]
+```
+
+### Skip non object
+
 ``` javascript
 const runObjFun = require('run-objFun')
 
@@ -57,24 +80,7 @@ runObjFun(obj) //=> true
 console.log(i) //=> 2
 ```
 
-``` javascript
-const runObjFun = require('run-objFun')
-
-let arr = []
-const fun1 = () => {
-  arr.push(1)
-}
-const fun2 = function() {
-  arr.push(2)
-}
-const obj = {
-  fun1,
-  fun2
-}
-
-runObjFun(obj) //=> true
-console.log(arr) //=> [1, 2]
-```
+### Type judgment
 
 ``` javascript
 const runObjFun = require('run-objFun')
