@@ -1,0 +1,32 @@
+{
+  "name": "run-objfun",
+  "version": "1.0.0",
+  "description": "functions in running objects(运行对象中的函数)",
+  "main": "index.js",
+  "dependencies": {
+    "kind-of": "^6.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlackHole1/run-objFun.git"
+  },
+  "keywords": [
+    "running",
+    "funtion",
+    "object",
+    "functions in running objects"
+  ],
+  "author": "Black-Hole <158blackhole@gmail.com> (http://bugs.cc/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackHole1/run-objFun/issues"
+  },
+  "homepage": "https://github.com/BlackHole1/run-objFun#readme"
+}
