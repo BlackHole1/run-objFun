@@ -1,6 +1,6 @@
 {
   "name": "run-objfun",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "functions in running objects(运行对象中的函数)",
   "main": "index.js",
   "dependencies": {

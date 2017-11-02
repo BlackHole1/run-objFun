@@ -31,11 +31,17 @@ const fun2 = function() {
 }
 const obj = {
   fun1,
-  fun2
+  fun2,
+  fun3: function() {
+    arr.push(3)
+  },
+  fun4: () => {
+    arr.push(4)
+  }
 }
 
 runObjFun(obj) //=> true
-console.log(arr) //=> [1, 2]
+console.log(arr) //=> [1, 2, ,, 4]
 ```
 
 ### Skip non object
