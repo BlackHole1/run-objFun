@@ -1,4 +1,4 @@
-# run-objFun [![npm](https://img.shields.io/github/issues/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/forks/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/stars/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BlackHole1/all-equal)
+# run-objFun [![npm](https://img.shields.io/npm/dy/run-objfun.svg)](https://www.npmjs.com/package/run-objfun) [![npm](https://img.shields.io/github/issues/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/forks/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/stars/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BlackHole1/all-equal)
 
 > Functions in running objects
 
