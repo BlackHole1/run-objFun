@@ -41,7 +41,7 @@ const obj = {
 }
 
 runObjFun(obj) //=> true
-console.log(arr) //=> [1, 2, ,, 4]
+console.log(arr) //=> [1, 2, 3, 4]
 ```
 
 ### Skip non object
