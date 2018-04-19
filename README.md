@@ -109,7 +109,7 @@ $ npm i -d && npm test
 
 | **Commits** | **Contributor** | 
 | --- | --- |
-| 1 | [Black-Hole](https://github.com/BlackHole1) |
+| 7 | [Black-Hole](https://github.com/BlackHole1) |
 
 ## Author
 

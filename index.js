@@ -2,9 +2,14 @@ const kindOf = require('kind-of')
 
 const entry = (obj) => {
   if (kindOf(obj) !== 'object') return false
-  for (let key in obj) {
+
+  let keys = Object.keys(obj)
+  let i = keys.length
+
+  while (i--) {
+    let key = keys[i]
     const fun = obj[key]
-    if (kindOf(fun) === 'function') fun()
+    kindOf(fun) === 'function' && fun()
   }
   return true
 }

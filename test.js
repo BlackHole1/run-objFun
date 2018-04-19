@@ -47,20 +47,4 @@ describe('Functions in running objects', function() {
     expect(runObjFun(array1)).to.be.false
     expect(runObjFun(fun1)).to.be.true
   })
-
-  it('1', function() {
-    const arr = []
-    const fun1 = () => {
-      arr.push(1)
-    }
-    const fun2 = function() {
-      arr.push(2)
-    }
-    const obj = {
-      fun1,
-      fun2
-    }
-    console.log(runObjFun(obj))
-    console.log(arr)
-  })
 })
