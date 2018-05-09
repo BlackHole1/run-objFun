@@ -1,7 +1,10 @@
-const kindOf = require('kind-of')
+let ToString = val => ({}).ToString.call(val)
+let isArray = arr => ToString(arr) === "[object Array]"
+let isFun = fun => typeof fun === "function"
+let isObject = obj => (obj != null && typeof obj === "object" && !isArray(obj) && ToString(obj) === "[object Object]")
 
 const entry = (obj) => {
-  if (kindOf(obj) !== 'object') return false
+  if (!isObject(obj)) return false
 
   let keys = Object.keys(obj)
   let i = keys.length
@@ -9,7 +12,7 @@ const entry = (obj) => {
   while (i--) {
     let key = keys[i]
     const fun = obj[key]
-    kindOf(fun) === 'function' && fun()
+    isFun(fun) && fun()
   }
   return true
 }

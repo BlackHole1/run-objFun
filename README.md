@@ -50,10 +50,10 @@ console.log(arr) //=> [1, 2, 3, 4]
 const runObjFun = require('run-objFun')
 
 let i = 0
-const fun1 = () => {
+const fun1 = () => {  // Run successfully
   ++i
 }
-const fun2 = () => {
+const fun2 = () => {  // Run successfully
   ++i
 }
 const generator1 = function * () {
