@@ -1,4 +1,4 @@
-let ToString = val => ({}).ToString.call(val)
+let ToString = val => ({}).toString.call(val)
 let isArray = arr => ToString(arr) === "[object Array]"
 let isFun = fun => typeof fun === "function"
 let isObject = obj => (obj != null && typeof obj === "object" && !isArray(obj) && ToString(obj) === "[object Object]")

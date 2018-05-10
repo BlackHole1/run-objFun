@@ -11,6 +11,7 @@ describe('Functions in running objects', function() {
     const fun2 = () => {
       ++i
     }
+    /* istanbul ignore next */
     const generator1 = function * () {
       ++i
     }
