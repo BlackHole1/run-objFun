@@ -1,4 +1,10 @@
-# run-objFun [![npm](https://img.shields.io/npm/dy/run-objfun.svg)](https://www.npmjs.com/package/run-objfun) [![npm](https://img.shields.io/github/issues/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/forks/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/github/stars/BlackHole1/run-objFun.svg)](https://github.com/BlackHole1/all-equal) [![npm](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/BlackHole1/all-equal)
+# run-objFun
+[![Node Version](https://img.shields.io/badge/node.js-%3E=_6-green.svg)](https://travis-ci.org/BlackHole1/run-objfun)
+[![Build Status](https://travis-ci.org/BlackHole1/run-objfun.svg?branch=master)](https://travis-ci.org/BlackHole1/run-objfun)
+[![Coverage Status](https://coveralls.io/repos/github/BlackHole1/run-objfun/badge.svg?branch=master)](https://coveralls.io/github/BlackHole1/run-objfun?branch=master)
+[![Npm Downlaod](https://img.shields.io/npm/dy/run-objfun.svg)](https://www.npmjs.com/package/run-objfun)
+
+[![NPM](https://nodei.co/npm/run-objfun.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/run-objfun/)
 
 > Functions in running objects
 
