@@ -1,7 +1,7 @@
 # run-objFun
-[![Node Version](https://img.shields.io/badge/node.js-%3E=_6-green.svg)](https://travis-ci.org/BlackHole1/run-objfun)
-[![Build Status](https://travis-ci.org/BlackHole1/run-objfun.svg?branch=master)](https://travis-ci.org/BlackHole1/run-objfun)
-[![Coverage Status](https://coveralls.io/repos/github/BlackHole1/run-objfun/badge.svg?branch=master)](https://coveralls.io/github/BlackHole1/run-objfun?branch=master)
+[![Node Version](https://img.shields.io/badge/node.js-%3E=_6-green.svg)](https://travis-ci.org/BlackHole1/run-objFun)
+[![Build Status](https://travis-ci.org/BlackHole1/run-objFun.svg?branch=master)](https://travis-ci.org/BlackHole1/run-objfun)
+[![Coverage Status](https://coveralls.io/repos/github/BlackHole1/run-objFun/badge.svg?branch=master)](https://coveralls.io/github/BlackHole1/run-objfun?branch=master)
 [![Npm Downlaod](https://img.shields.io/npm/dy/run-objfun.svg)](https://www.npmjs.com/package/run-objfun)
 
 [![NPM](https://nodei.co/npm/run-objfun.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/run-objfun/)
@@ -12,13 +12,13 @@
 
 ``` bash
 # Install with npm
-$ npm install run-objFun --save
+$ npm install run-objfun --save
 
 # Install with yarn
-$ yarn add run-objFun
+$ yarn add run-objfun
 
 # Install with bower
-$ bower install run-objFun --save
+$ bower install run-objfun --save
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ $ bower install run-objFun --save
 ### function is ES5 or ES6
 
 ``` javascript
-const runObjFun = require('run-objFun')
+const runObjFun = require('run-objfun')
 
 let arr = []
 const fun1 = () => {
@@ -53,7 +53,7 @@ console.log(arr) //=> [1, 2, 3, 4]
 ### Skip non object
 
 ``` javascript
-const runObjFun = require('run-objFun')
+const runObjFun = require('run-objfun')
 
 let i = 0
 const fun1 = () => {  // Run successfully
@@ -95,7 +95,7 @@ console.log(i) //=> 2
 ### Type judgment
 
 ``` javascript
-const runObjFun = require('run-objFun')
+const runObjFun = require('run-objfun')
 
 const arr = []
 
